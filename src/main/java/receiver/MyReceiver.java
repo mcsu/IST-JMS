@@ -19,7 +19,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class MyReceiver {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) {//Queue Receiver
 		try{
 			
 			ApplicationContext applicationContext = new ClassPathXmlApplicationContext("applicationContextJMS.xml");

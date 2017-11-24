@@ -4,7 +4,7 @@ import javax.jms.JMSException;
 import javax.jms.Message;
 import javax.jms.TextMessage;
 
-public class Listener implements javax.jms.MessageListener{
+public class Listener implements javax.jms.MessageListener{//监听器
 
 	public void onMessage(Message message) {
 		 TextMessage textMsg = (TextMessage) message;  

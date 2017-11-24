@@ -11,7 +11,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class MySender {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) { //Queue Sender
 
 		try {
 
